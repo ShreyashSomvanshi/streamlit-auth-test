@@ -50,4 +50,4 @@ if LOGGED_IN == True:
         c2.subheader("Classification Result")
         c2.write("The image is classified as **{}**.".format(res.title()))
       
-    st.button('Check', use_container_width=True) 
+    st.button('Check') 
