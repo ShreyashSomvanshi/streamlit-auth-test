@@ -285,6 +285,18 @@ class __login__:
         footer {visibility: hidden;}
         </style> """, unsafe_allow_html=True)
 
+    def about(self) -> None:
+        """
+        Team info
+        """
+        st.write("About Us: Shreyash, Aditya, Vaibhav, Pratiksha")
+
+    def contribute(self) -> None:
+        """
+        source code github repository info
+        """
+        st.write("Contribute to this project by raising an issue or PR here: https://github.com/ShreyashSomvanshi/test_synthcheck/")
+
 
     def build_login_ui(self):
         """
@@ -314,6 +326,12 @@ class __login__:
         
         if selected_option == 'Create Account':
             self.sign_up_widget()
+
+        if selected_option == 'About':
+            self.about()
+
+        if selected_option == 'Contribute':
+            self.contribute()
 
         #if selected_option == 'Forgot Password?':
         #    self.forgot_password()
