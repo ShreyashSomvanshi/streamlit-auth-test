@@ -7,7 +7,7 @@ import warnings
 warnings.filterwarnings("ignore")
 
 
-__login__obj = __login__(auth_token = "pk_test_2EKXYR8HSBM7TRJNXSG54G5GNFX8",
+__login__obj = __login__(auth_token = "pk_prod_T7HPXECPJ74CNHGT9T30W621JGWQ",
                     company_name = "Synthcheck",
                     width = 200, height = 250,
                     logout_button_name = 'Logout', hide_menu_bool = False,
