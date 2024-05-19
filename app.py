@@ -26,7 +26,7 @@ if LOGGED_IN == True:
     model = None
 
 
-    @st.cache_resource
+    # @st.cache_resource
     def load_model():
         global model
         pass
