@@ -33,11 +33,13 @@ jsonschema
 jupyter-client
 jupyter-core
 jupyterlab-widgets
+keras
 keyring
 MarkupSafe
 matplotlib-inline
 nest-asyncio
 numpy
+opencv-python
 packaging
 pandas
 parso
@@ -73,6 +75,7 @@ streamlit
 streamlit-cookies-manager
 streamlit-lottie
 streamlit-option-menu
+tensorflow
 toml
 toolz
 tornado
