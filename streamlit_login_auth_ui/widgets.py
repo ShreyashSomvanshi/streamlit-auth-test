@@ -259,8 +259,8 @@ class __login__:
                 menu_title = 'SynthCheck',
                 # menu_icon = 'list-columns-reverse',
                 menu_icon = 'check2-circle',
-                icons = ['box-arrow-in-right', 'person-plus', 'info-circle','github'],
-                options = ['Login', 'Create Account', 'About', 'Contribute'],
+                icons = ['box-arrow-in-right', 'person-plus'],
+                options = ['Login', 'Create Account'],
                 #options = ['Login', 'Create Account', 'Forgot Password?', 'Reset Password'],
                 styles = {
                     "container": {"padding": "5px"},
